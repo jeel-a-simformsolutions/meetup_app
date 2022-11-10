@@ -32,14 +32,14 @@ function AllMeetupsPage() {
   if (isLoading) {
     return (
       <section>
-        <p>Loading...</p>
+        <p>Loading..</p>
       </section>
     );
   }
 
   return (
     <section>
-      <h1>All Meetups</h1>
+      <h1>All Meetup</h1>
       <MeetupList meetups={loadedMeetups} />
     </section>
   );
